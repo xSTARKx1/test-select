@@ -1,0 +1,53 @@
+.wrapper {
+  position: relative;
+  width: 320px;
+
+  .input {
+    border: 1px solid #b6b6b6;
+    padding: 10px 20px;
+    border-radius: 8px;
+  }
+
+  .dropdown {
+    position: absolute;
+    width: 100%;
+    border: 1px solid #b6b6b6;
+    border-radius: 8px;
+    top: 50px;
+  }
+
+  .searchInput {
+    width: 100%;
+    padding: 10px 0 10px 20px;
+    border: none;
+    border-bottom: 1px solid #b6b6b6;
+    outline: none;
+    border-radius: 8px 8px 0 0;
+  }
+
+  .listItem {
+    cursor: pointer;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: background-color .3s linear;
+
+    > img {
+      width: 20px;
+      height: 20px;
+    }
+
+    &:hover {
+      background-color: #eaeaea;
+    }
+  }
+
+  .errorMessage {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "useTabs": true,
+  "semi": false,
+  "singleQuote": true,
+  "braceSpacing": true,
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}
